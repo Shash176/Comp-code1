@@ -1,5 +1,5 @@
 n=int(input())
-
+def toggle(n): 
     temp = 1
     while (temp <= n):
         n = n ^ temp
@@ -7,6 +7,5 @@ n=int(input())
  
     return n
 n=toggle(n)
-print("")
 print(n)
   
