@@ -1,0 +1,13 @@
+N=int(input())
+list=[]
+for i in range(N):
+    list.append(int(input()))
+print("Given list:" ,list)
+
+j=0
+for i in range(N):
+    if list[i] != 0:
+        list[j], list[i] = list[i], list[j]  
+        j += 1
+        
+print("updated list :",list)
