@@ -1,0 +1,12 @@
+n=int(input())
+
+    temp = 1
+    while (temp <= n):
+        n = n ^ temp
+        temp = temp << 1
+ 
+    return n
+n=toggle(n)
+print("")
+print(n)
+  
