@@ -4,7 +4,6 @@ def toggle(n):
     while (temp <= n):
         n = n ^ temp
         temp = temp << 1
- 
     return n
 n=toggle(n)
 print(n)
